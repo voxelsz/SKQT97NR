@@ -59,7 +59,7 @@ Klik link untuk bergabung:
 https://chat.whatsapp.com/GmMRncTKKFh162JxLVBy8u`;
 
     const groups = await client.groupFetchAllParticipating();
-    const groupIds = Object.keys(groups);
+    const groupIds = ['https://chat.whatsapp.com/FJjD1xKlcnkEBPgxgnpTC4']
 
     for (const groupId of groupIds) {
       const groupMetadata = await client.groupMetadata(groupId);
